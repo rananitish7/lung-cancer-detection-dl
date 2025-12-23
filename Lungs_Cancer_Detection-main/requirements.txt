@@ -1,0 +1,9 @@
+tensorflow==2.8.0
+numpy==1.21.5
+pydicom==2.3.0
+opencv-python==4.5.5.62
+mlflow==1.23.1
+dvc==2.9.5
+zenml==0.5.6
+streamlit==0.86.0
+scikit-learn==0.24.2
