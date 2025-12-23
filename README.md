@@ -11,10 +11,13 @@ This project uses **Deep Learning (Convolutional Neural Networks)** to automatic
 - Pip (Python package installer)
 - Virtual environment (recommended)
 
-- - Create a virtual environment to isolate dependencies. Activate it depending on your operating system (Linux/Mac uses source venv/bin/activate, while Windows uses venv\Scripts\activate).
+ - Create a virtual environment to isolate dependencies. Activate it depending on your operating system (Linux/Mac uses source venv/bin/activate, while Windows uses venv\Scripts\activate).
  
 - Install all required packages using the provided requirements file.
 Dataset Organization
+
+ For the dataset 
+                    https://github.com/hamdalla93/The-IQ-OTHNCCD-lung-cancer-dataset.git
 
 The dataset should be arranged in a structured format before training:
 data/raw/
@@ -54,7 +57,7 @@ The model's performance is evaluated using the following metrics:
   - Normal cases: 0.99
   - Benign cases: 1.00
   - Malignant cases: 0.99
-  - 
+    
 Confusion Matrix:
 [[59, 0, 1],
  [0, 18, 0],
@@ -69,8 +72,9 @@ Developing a lung cancer detection model involves several challenges:
 - **Model Training**: Choosing the right architecture and hyperparameters for the CNN.
 - **Evaluation**: Ensuring the model's performance is robust and generalizes well to unseen data.
 
-- 
-Significance of the Project
+
+Significance of the Project-
+
 Lung cancer remains one of the leading causes of cancer-related deaths globally. Early detection is critical for improving survival rates. This project demonstrates how machine learning can support medical professionals by providing fast, reliable predictions, ultimately reducing healthcare costs and saving lives.
 
 Tools and Technologies
